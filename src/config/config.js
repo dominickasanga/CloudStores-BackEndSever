@@ -1,7 +1,6 @@
-const { application } = require("express");
 
 module.exports = {
-    port: process.env.PORT || 8183,
+    port: process.env.PORT || 8184,
     db: {
         database: process.env.DB_NAME || 'cloudstores',
         user: process.env.DB_USER || 'cloudstores',
