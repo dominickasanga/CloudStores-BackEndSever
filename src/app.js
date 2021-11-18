@@ -18,7 +18,7 @@ app.get('/status', (req, res) => {
 })
 
 require('../src/routes')(app)
-sequelize.sync()
+sequelize.sync({force: true})
   .then ( () => {
 
     app.listen(process.env.PORT || 8181)
