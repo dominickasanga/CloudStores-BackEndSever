@@ -1,6 +1,6 @@
 
 module.exports = {
-    port: process.env.PORT || 8184,
+    port: process.env.PORT || 8181,
     db: {
         database: process.env.DB_NAME || 'cloudstores',
         user: process.env.DB_USER || 'cloudstores',
@@ -10,5 +10,8 @@ module.exports = {
             host: process.env.HOST || 'localhost',
             storate: '../tab_tracker.sqlite'
         }
+    },
+    authentication: {
+        jwtSecret: process.env.JWT_SECRET || 'sedret'
     }
 }
