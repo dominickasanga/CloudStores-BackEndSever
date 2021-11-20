@@ -1,11 +1,26 @@
 const {Item} = require('../models')
+const { Op } = require("sequelize");
+
 
 module.exports = {
     async index(req, res) {
         try {
-            const items = await Item.findAll({
-                limit: 10
-            })
+            let items = null
+            const search = req.query.search
+
+            if (search) {
+                items = await Item.findAll({
+                    where: {
+                      name: {
+                        [Op.like]: `%${search}%`
+                      }
+                    }
+                  });
+            } else {
+                items = await Item.findAll({
+                    limit: 10
+                 })
+            }
             res.send(items)
         } catch(err) {
             res.status(500).send({
@@ -35,7 +50,7 @@ module.exports = {
     },
     async put (req, res) {
         try {
-            const item = await Item.update(req.body,{
+            await Item.update(req.body,{
                 where: {
                     id: req.params.itemId
                 }
