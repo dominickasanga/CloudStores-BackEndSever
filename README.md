@@ -9,3 +9,6 @@ an Express JS Api
 3. run command `node index.js`
 
 "this will populate your db instance"
+             
+             OR
+    while in the root project dir,run command `npm run seed`
