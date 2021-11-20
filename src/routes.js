@@ -19,4 +19,7 @@ module.exports = (app) => {
   
   app.get('/items/:itemId',
     ItemsController.show)
+  
+  app.put('/items/:itemId',
+    ItemsController.put)
 }

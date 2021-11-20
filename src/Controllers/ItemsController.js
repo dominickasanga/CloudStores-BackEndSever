@@ -32,5 +32,19 @@ module.exports = {
                 error: 'An error has occured trying to retrive an item'
             })
         }
+    },
+    async put (req, res) {
+        try {
+            const item = await Item.update(req.body,{
+                where: {
+                    id: req.params.itemId
+                }
+            })
+            res.send(req.body)
+        } catch(err) {
+            res.status(500).send({
+                error: 'An error has occured trying to update the item'
+            })
+        }
     }
 }
