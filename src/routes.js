@@ -16,4 +16,7 @@ module.exports = (app) => {
 
   app.post('/item',
     ItemsController.post)
+  
+  app.get('/items/:itemId',
+    ItemsController.show)
 }

@@ -14,13 +14,22 @@ module.exports = {
         }
     },
     async post(req, res) {
-        console.log(req.body)
         try {
             const item = await Item.create(req.body)
             res.send(item)
         } catch(err) {
             res.status(500).send({
                 error: 'An error has occured create an item'
+            })
+        }
+    },
+    async show (req, res) {
+        try {
+            const item = await Item.findByPk(req.params.itemId)
+            res.send(item)
+        } catch(err) {
+            res.status(500).send({
+                error: 'An error has occured trying to retrive an item'
             })
         }
     }
