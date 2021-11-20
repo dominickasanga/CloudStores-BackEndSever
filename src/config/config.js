@@ -2,13 +2,12 @@
 module.exports = {
     port: process.env.PORT || 8182,
     db: {
-        database: process.env.DB_NAME || 'cloudstores',
-        user: process.env.DB_USER || 'cloudstores',
-        password: process.env.DB_PASS || 'cloudstores',
+        database: process.env.DB_NAME || 'cloudstoresmw',
+        user: process.env.DB_USER || 'root',
+        password: process.env.DB_PASS || 'root',
         options: {
-            dialect: process.env.DIALECT || 'sqlite',
-            host: process.env.HOST || 'localhost',
-            storate: '../tab_tracker.sqlite'
+            dialect: process.env.DIALECT || 'mysql',
+            host: process.env.HOST || 'localhost'
         }
     },
     authentication: {
