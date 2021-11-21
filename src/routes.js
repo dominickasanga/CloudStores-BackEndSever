@@ -1,7 +1,8 @@
 const AuthenticationController = require('../src/Controllers/AuthenticationController')
 const ItemsController = require('../src/Controllers/ItemsController')
-
+const BookmarkController = require('../src/Controllers/BookmarkController')
 const AuthenticationControllerPolicy = require('../src/policies/AuthenticationControllerPolicy')
+
 
 module.exports = (app) => {
   app.post('/register',
@@ -22,4 +23,7 @@ module.exports = (app) => {
   
   app.put('/items/:itemId',
     ItemsController.put)
+
+  app.get('/bookmarks',
+    BookmarkController.index)
 }

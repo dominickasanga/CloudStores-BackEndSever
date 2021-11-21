@@ -29,6 +29,5 @@ sequelize.sync({force: true})
           Bookmark.create(bookmark)
         })
       )
-
-
+      
   })
