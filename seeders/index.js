@@ -1,12 +1,14 @@
 const {
     sequelize,
     Item,
-    User
+    User,
+    Bookmark
 } = require('../src/models')
 
 const Promise = require('bluebird')
 const items = require('./Items.json')
 const users = require('./Users.json')
+const bookmark = require('./bookmarks.json')
 
 sequelize.sync({force: true})
   .then ( async function() {
