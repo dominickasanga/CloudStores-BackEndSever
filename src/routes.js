@@ -8,22 +8,22 @@ module.exports = (app) => {
   app.post('/register',
     AuthenticationControllerPolicy.register,
     AuthenticationController.register)
-
   app.post('/login',
     AuthenticationController.login)
 
   app.get('/items',
     ItemsController.index)
-
   app.post('/item',
     ItemsController.post)
-  
   app.get('/items/:itemId',
     ItemsController.show)
-  
   app.put('/items/:itemId',
     ItemsController.put)
 
   app.get('/bookmarks',
     BookmarkController.index)
+  app.post('/bookmarks',
+    BookmarkController.post)
+  app.delete('/bookmarks/:bookmarkId',
+    BookmarkController.delete)
 }
