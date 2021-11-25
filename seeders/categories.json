@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Accesories",
+        "description": "",
+        "categoryImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1299B_01_Fatigue_360x.jpg?v=1588356014"
+    },
+
+    {
+        "name": "Denim",
+        "description": "",
+        "categoryImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1190D-Dip-Dye_Front_S_360x.jpg?v=1588356299"
+    },
+    
+    {
+        "name": "Footwear",
+        "description": "",
+        "categoryImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/Boot_03_01_180x.jpg?v=1588355132"
+    },
+
+    {
+        "name": "Outerwear",
+        "description": "",
+        "categoryImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1168_01_180x.jpg?v=1588355801"
+    },
+
+    {
+        "name": "Pants",
+        "description": "",
+        "categoryImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1171-Olive_Front_S_180x.jpg?v=1588356254"
+    },
+
+    {
+        "name": "Shirts",
+        "description": "",
+        "categoryImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-300-Navy_Front_S_180x.jpg?v=1588356321"
+    },
+
+    {
+        "name": "T-shirts",
+        "description": "",
+        "categoryImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/collections/Shirts_collection_91ec4ba8-5b79-4fea-bb99-491c5c488a9b_180x.jpg?v=1588363497"
+    },
+
+    {
+        "name": "Shorts",
+        "description": "",
+        "categoryImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1194B-Black-Wash_Front_S_180x.jpg?v=1588356314"
+    }
+]

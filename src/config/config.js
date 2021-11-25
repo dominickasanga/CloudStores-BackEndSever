@@ -1,6 +1,6 @@
 
 module.exports = {
-    port: process.env.PORT || 8182,
+    port: process.env.PORT || 8183,
     db: {
         database: process.env.DB_NAME || 'cloudstoresmw',
         user: process.env.DB_USER || 'root',
