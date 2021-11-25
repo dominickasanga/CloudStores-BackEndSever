@@ -23,5 +23,29 @@
         "sku": "product-204",
         "productImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1061_01_1162445a-f4cc-4d55-8965-e006df7c829b_200x200.jpg?v=1588355047",
         "tab": "Two Thunderbolt 3(USB-c)ports;"
+    },
+
+    {
+        "name": "Navigator Parka Jacket - Olive",
+        "description": "",
+        "sku": "product-204",
+        "productImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1159B_01_200x200.jpg?v=1588355689",
+        "tab": "Two Thunderbolt 3(USB-c)ports;"
+    },
+
+    {
+        "name": "Gulf Jacket - Olive",
+        "description": "",
+        "sku": "product-204",
+        "productImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1154-Olive_01_200x200.jpg?v=1588355917",
+        "tab": "Two Thunderbolt 3(USB-c)ports;"
+    },
+
+    {
+        "name": "Ranger Longer Length Hoody - Olive",
+        "description": "",
+        "sku": "product-204",
+        "productImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1152A_01_200x200.jpg?v=1588355678",
+        "tab": "Two Thunderbolt 3(USB-c)ports;"
     }
 ]
