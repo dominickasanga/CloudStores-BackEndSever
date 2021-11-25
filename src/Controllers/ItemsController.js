@@ -8,20 +8,36 @@ module.exports = {
             let items = null
             const search = req.query.search
 
-            if (search) {
-                items = await Item.findAll({
-                    where: {
-                      name: {
-                        [Op.like]: `%${search}%`
-                      }
-                    }
-                  });
-            } else {
-                items = await Item.findAll({
-                    limit: 10
-                 })
+            const parsed = parseInt(search);
+            if (isNaN(parsed)) { 
+                if (search) {
+                    items = await Item.findAll({
+                        where: {
+                          name: {
+                            [Op.like]: `%${search}%`
+                          }
+                        }
+                      });
+                } else {
+                    items = await Item.findAll({
+                        limit: 10
+                     })
+                }
+                res.send(items)
             }
-            res.send(items)
+
+            else {
+               
+                    items = await Item.findAll({
+                        where: {
+                            categoryId: parsed
+                        }
+                      });
+                
+                res.send(items)
+            }
+
+
         } catch(err) {
             res.status(500).send({
                 error: 'An error has occured trying to retrive items'
