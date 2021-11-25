@@ -1,25 +1,27 @@
 [
-    {
-        "name": "bike-230",
-        "description": "Worlds best bike",
-        "sku": "BK01",
-        "productImageUrl": "https://m.media-amazon.com/images/I/41Re9RQGGIL._AC_SX425_.jpg",
-        "tab": "fast running out"
-    },
 
     {
-        "name": "NIKON-78c AVANT",
-        "description": "Capture every momemt",
-        "sku": "NK02101",
-        "productImageUrl": "https://cdn-4.nikon-cdn.com/e/Q5NM96RZZo-YRYNeYvAi9beHK4x3L-8kHbA0MlEAVn2W1yKXB-B_2zEtiAgzBX5TShX8lUMVnxSs0ATXqRnkGA==/Views/25492_D3200_left.png",
-        "tab": "Last Of its kind"
-    },
-
-    {
-        "name": "Apple MacBook Air A2179",
-        "description": "MacBook Air",
+        "name": "York Jersey - Blk/Grey",
+        "description": "",
         "sku": "product-204",
-        "productImageUrl": "https://rootsrwanda.rw/uploads/products/1603892446lAeppllplpplpeelpell.jpg",
+        "productImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-616_METTLEDYARN_BGy_01_200x200.jpg?v=1588353695",
+        "tab": "Two Thunderbolt 3(USB-c)ports;"
+    },
+
+    {
+        "name": "Admiral Sweater - Olive",
+        "description": "",
+        "sku": "product-204",
+        "productImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1023A_Olive_01A_200x200.jpg?v=1588354978",
+        "tab": "Two Thunderbolt 3(USB-c)ports;"
+    },
+
+
+    {
+        "name": "Colonel Sweater - Navy",
+        "description": "",
+        "sku": "product-204",
+        "productImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1061_01_1162445a-f4cc-4d55-8965-e006df7c829b_200x200.jpg?v=1588355047",
         "tab": "Two Thunderbolt 3(USB-c)ports;"
     }
 ]
