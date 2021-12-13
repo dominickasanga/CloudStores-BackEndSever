@@ -30,4 +30,6 @@ module.exports = (app) => {
 
   app.get('/categories',
     CategoriesController.index)
+  app.get('/categories/:categoryId',
+    CategoriesController.show)
 }
