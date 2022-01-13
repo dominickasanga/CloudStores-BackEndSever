@@ -12,3 +12,4 @@ an Express JS Api
              
              OR
     while in the root project dir,run command `npm run seed`
+# use `npm start` to run the server while in root dir
