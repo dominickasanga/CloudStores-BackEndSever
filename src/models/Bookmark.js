@@ -1,5 +1,7 @@
 module.exports = (sequelize, DataTypes) => {
-    const Bookmark = sequelize.define('Bookmark', {})
+    const Bookmark = sequelize.define('Bookmark', {
+      quantity: DataTypes.STRING,
+    })
   
     Bookmark.associate = function (models) {
       Bookmark.belongsTo(models.User)

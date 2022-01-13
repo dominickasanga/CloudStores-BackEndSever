@@ -2,6 +2,7 @@
 
     {
         "name": "York Jersey - Blk/Grey",
+        "price": "5000",
         "description": "",
         "categoryId": "4",
         "productImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-616_METTLEDYARN_BGy_01_200x200.jpg?v=1588353695",
@@ -10,6 +11,7 @@
 
     {
         "name": "Admiral Sweater - Olive",
+        "price": "10000",
         "description": "",
         "categoryId": "4",
         "productImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1023A_Olive_01A_200x200.jpg?v=1588354978",
@@ -19,6 +21,7 @@
 
     {
         "name": "Colonel Sweater - Navy",
+        "price": "1000",
         "description": "",
         "categoryId": "2",
         "productImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1061_01_1162445a-f4cc-4d55-8965-e006df7c829b_200x200.jpg?v=1588355047",
@@ -27,6 +30,7 @@
 
     {
         "name": "Navigator Parka Jacket - Olive",
+        "price": "2000",
         "description": "",
         "categoryId": "1",
         "productImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1159B_01_200x200.jpg?v=1588355689",
@@ -35,6 +39,7 @@
 
     {
         "name": "Gulf Jacket - Olive",
+        "price": "4000",
         "description": "",
         "categoryId": "1",
         "productImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1154-Olive_01_200x200.jpg?v=1588355917",
@@ -43,6 +48,7 @@
 
     {
         "name": "Ranger Longer Length Hoody - Olive",
+        "price": "2000",
         "description": "",
         "categoryId": "3",
         "productImageUrl": "https://cdn.shopify.com/s/files/1/0262/0807/5798/products/SGT-1152A_01_200x200.jpg?v=1588355678",

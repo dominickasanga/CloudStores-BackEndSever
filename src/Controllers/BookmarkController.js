@@ -45,6 +45,7 @@ module.exports = {
            } 
 
             const newBookmark = await Bookmark.create({
+                quantity: "1",
                 ItemId: itemId,
                 UserId: userId
               })
