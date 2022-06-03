@@ -3,6 +3,7 @@ const ItemsController = require('../src/Controllers/ItemsController')
 const BookmarkController = require('../src/Controllers/BookmarkController')
 const CategoriesController = require('../src/Controllers/CategoriesController')
 const AuthenticationControllerPolicy = require('../src/policies/AuthenticationControllerPolicy')
+const PaymentController = require('../src/Controllers/PaymentController')
 
 
 module.exports = (app) => {
@@ -32,4 +33,7 @@ module.exports = (app) => {
     CategoriesController.index)
   app.get('/categories/:categoryId',
     CategoriesController.show)
+  
+  app.post('/sale',
+    PaymentController.post)
 }
