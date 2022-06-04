@@ -1,6 +1,4 @@
 const {Bookmark, Item} = require('../models')
-const _ = require('lodash')
-const { response } = require('express')
 
 module.exports = {
     async index(req, res) {
@@ -61,13 +59,28 @@ module.exports = {
     async delete(req, res) {
         try {
            const {bookmarkId} = req.params
-           console.log("HELLO: ",bookmarkId)
            const bookmark = await Bookmark.findByPk(bookmarkId)
            await bookmark.destroy()
            res.send(bookmark)
         } catch(err) {
             res.status(500).send({
                 error: 'An error has occured trying to delete a bookmark'
+            })
+        }
+    },
+
+    async incrementQuantity(req, res) {
+        console.log( req.params.bookmarkId)
+        try {
+            await Bookmark.update(req.body,{
+                where: {
+                    id: req.params.bookmarkId
+                }
+            })
+            res.send(req.body)
+        } catch(err) {
+            res.status(500).send({
+                error: 'An error has occured trying to update the category'
             })
         }
     }
